@@ -51,6 +51,6 @@ $products = [
     new Product("Tablet", 400, 2)
 ];
 
-foreach ($product->isAvailable() as $detail) {
-    echo $detail;
+foreach ($products as $product) {
+    echo $product->isAvailable() . "<br>";
 }
