@@ -1,3 +1,4 @@
+<?php
 /*
 Problem 1: The E-commerce Product Display
 Scenario: You are building a catalog for an online store. Each product has a name, a price, and a stock quantity. 
@@ -13,8 +14,6 @@ Method displayDetails(): Returns a formatted string with the name and price.
 
 Method isAvailable(): Returns true if quantity is greater than 0, otherwise false.
 */
-
-<?php
 
 class Product
 {
@@ -38,8 +37,7 @@ class Product
     {
         if ($this->quantity <= 0) {
             return $this->displayDetails() . " | " . "Out of Stock";
-        }
-        else {
+        } else {
             return $this->displayDetails() . " | " . "In Stock";
         }
     }

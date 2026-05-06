@@ -1,3 +1,4 @@
+<?php
 /*
 Problem 4: The Secure Data Auditor
 Scenario: You are building a system for a bank. For security reasons, every time a sensitive record is accessed, you
@@ -14,8 +15,6 @@ Prints: "AUDIT END: Closing [Document Name] and clearing temporary cache."
 Challenge: Instantiate two different document objects and see how the destructors fire in reverse order at the end of
 the script.
 */
-
-<?php
 
 class DocumentAudit
 {

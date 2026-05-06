@@ -1,3 +1,4 @@
+<?php
 /*
 Problem 2: The Discounted Shopping CartScenario: An e-commerce site wants to apply a "Welcome Discount" automatically as
 soon as a cart is created for a new user.
@@ -10,9 +11,6 @@ Prints: "New cart initialized with a [X]% discount code.
 The Destructor:Calculates the final price after the discount: $Final = Total \times (1 - \frac{Discount}{100})$.
 Prints: "Final Checkout Amount: $[Final Price]."
 */
-
-<?php
-
 class ShoppingCart
 {
     public $total = 0;

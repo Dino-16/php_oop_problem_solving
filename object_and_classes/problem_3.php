@@ -1,3 +1,4 @@
+<?php
 /*
 Problem 3: Digital Wallet Transaction
 Scenario: A fintech app needs a way to manage user balances.
@@ -13,8 +14,6 @@ Method withdraw($amount): Deducts from the balance only if there are sufficient 
 "Insufficient funds."
 Method getBalance(): Returns the current balance formatted as currency (e.g., "$100.00").
 */
-
-<?php
 
 class Wallet
 {
