@@ -1,7 +1,7 @@
 <?php
 
 /* 
-Problem 1: The Character Stat Tracker (RPG Game)
+Problem 7: The Character Stat Tracker (RPG Game)
 Scenario: You are developing a role-playing game. Each character has a name, a level, and health points (HP). You need to ensure that when a character takes damage, their HP property updates correctly.
 
 Task: Create a Character class.
