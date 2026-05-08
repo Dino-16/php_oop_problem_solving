@@ -1,6 +1,6 @@
 <?php
 /*
-Problem 3: The Database Transaction "Rollback"
+Problem 6: The Database Transaction "Rollback"
 Scenario: In database management, if you start a "Transaction" and the script fails or ends before you "Commit" the
 changes, you should automatically roll back to prevent data corruption.
 

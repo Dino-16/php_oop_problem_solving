@@ -1,6 +1,6 @@
 <?php
 /*
-Problem 2: The Discounted Shopping CartScenario: An e-commerce site wants to apply a "Welcome Discount" automatically as
+Problem 5: The Discounted Shopping CartScenario: An e-commerce site wants to apply a "Welcome Discount" automatically as
 soon as a cart is created for a new user.
 Task: Create a ShoppingCart class.
 Properties: $total and $discount.
