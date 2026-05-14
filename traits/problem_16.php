@@ -1,6 +1,6 @@
 <?php
 /*
-Problem 1: The "Timestampable" Trait
+Problem 16: The "Timestampable" Trait
 Scenario: In a large application, many different types of data (Users, Posts, Products, Invoices) need to track when they were created. Instead of rewriting the logic in every class, you can create a Trait.
 
 Task: Create a Trait called Timestampable.
