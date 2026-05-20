@@ -17,8 +17,8 @@ Challenge: In your main script, instantiate both transaction classes and run the
 */
 
 
-require_once 'stripeTransaction.php';
-require_once 'payPalTransaction.php';
+require_once 'App/Payment/stripeTransaction.php';
+require_once 'App/Payment/payPalTransaction.php';
 
 use App\Payment\Stripe\Transaction as StripeTransaction;
 use App\Payment\PayPal\Transaction as PayPalTransaction;
