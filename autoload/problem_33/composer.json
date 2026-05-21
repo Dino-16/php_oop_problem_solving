@@ -1,0 +1,11 @@
+{
+    "name": "yourvendor/yourproject",
+    "description": "A sample project using PSR-4 autoloading",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "app/"
+        }
+    },
+    "require": {}
+}

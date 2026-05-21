@@ -19,7 +19,7 @@ The Challenge: Write the string manipulation logic inside spl_autoload_register(
 into the file path "src/Utilities/Logger.php" and load it.
 */
 
-spl_autoload_register(function($className) {
+spl_autoload_register(function ($className) {
     $prefix = "App\\";
     $baseDir = __DIR__ . "/src/";
 
@@ -31,7 +31,6 @@ spl_autoload_register(function($className) {
     $relativeClass = substr($className, $len);
     $file = $baseDir . str_replace("\\", "/", $relativeClass) . ".php";
 
-    // Debugging output
     echo "Class name: $className\n";
     echo "File path: $file\n";
 
