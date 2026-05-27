@@ -1,7 +1,7 @@
 <?php
 
 /*
-Problem 1: The E-Commerce Product Catalog
+Problem 37: The E-Commerce Product Catalog
 Scenario: You are building the backend for an online tech store. You need a systemized way to represent products in your catalog so you don't rely on messy, unorganized arrays.
 
 Requirements:
